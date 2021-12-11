@@ -17,7 +17,7 @@ const ADD_DADOS_CARDS = `INSERT INTO CARDS
         (id, url, card_name, yes_or_no, explanation)
         VALUES
         (1, './major-arcana/00-TheFool.png', '0 - O Louco', 'SIM', 'Explicação')
-       
+        (2, './major-arcana/01-TheMagical.png', '1 - O Louco', 'SIM', 'Explicação')
 `;
 
 function criaTabelaCards() {
