@@ -1,31 +1,20 @@
 {
-  "name": "tarot-y-or-n",
+  "name": "tarotyesorno",
   "version": "1.0.0",
-  "description": "A simple API made with Node.js and Express / MongoDB",
-  "main": "index.js",
+  "description": "A simple major arcana API made with Node.js and Express",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index"
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabrielaalvescosta/TarotYesorNo.git"
-  },
-  "keywords": [
-    "tarot",
-    "javascript",
-    "cards"
-  ],
   "author": "Gabriela Costa",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabrielaalvescosta/TarotYesorNo/issues"
-  },
-  "homepage": "https://github.com/gabrielaalvescosta/TarotYesorNo#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "dotenpnv": "^10.0.0",
     "express": "^4.17.1",
-    "mysql": "^2.18.1"
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
