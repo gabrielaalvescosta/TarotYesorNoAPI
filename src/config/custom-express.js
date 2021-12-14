@@ -13,7 +13,7 @@ module.exports = () => {
     app.use(express.json());
 
     consign() // chamo o gerenciador.
-        .include('./controllers') // informo o que eu quero que o gerenciador inclua.
+        .include('./src/controllers') // informo o que eu quero que o gerenciador inclua.
         .into(app) // informo onde eu quero que o gerenciador inclua.
 
     return app

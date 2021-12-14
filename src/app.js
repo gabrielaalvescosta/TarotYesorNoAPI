@@ -4,7 +4,7 @@ const autores = require('./controllers/tarotController')
 
 // Config de app e porta
 const app = customExpress()
-const PORT = process.env.PORT || 3003
+const PORT = process.env.PORT || 3000
 
 // Importação das funções controllers
 autores(app)
