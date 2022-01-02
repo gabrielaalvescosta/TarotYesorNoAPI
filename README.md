@@ -33,4 +33,13 @@ Abra o terminal (Linux/Mac) ou o PowerShell (Windows) e siga os passos abaixo.
 
 Porta padrão é a __3000__. 
 
+## Rotas: Como utilizar a API?
+
+`https://tarot-yn.herokuapp.com/cards`
+Mostra todas as cartas
+
+`https://tarot-yn.herokuapp.com/cards/1`
+Mostra cada carta por número (0 a 22)
+
+
 
