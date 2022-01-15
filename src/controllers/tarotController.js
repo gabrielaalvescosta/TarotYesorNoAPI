@@ -2,7 +2,7 @@ const CardsModel = require('../models/Cards')
 
 const cartas = (app) => {
   app.get('/', (req, res) => {
-    res.send('<h1>Welcome to my API</h1>')
+    res.send('<h1>Tarot API</h1>')
   })
 
 
