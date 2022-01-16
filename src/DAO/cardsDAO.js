@@ -7,7 +7,7 @@ class CardsDAO {
           reject(({ "mensagem": err.message, "error": true }))
         } else {
           resolve({
-            "autores": rows,
+            "cartas": rows,
             "error": false
           })
         }
