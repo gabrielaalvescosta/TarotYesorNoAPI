@@ -29,7 +29,7 @@ Abra o terminal (Linux/Mac) ou o PowerShell (Windows) e siga os passos abaixo.
 
 * Para iniciar os projetos use o comando abaixo
 
-    `npm run start`
+    `npm start`
 
 Porta padrão é a __3000__. 
 
